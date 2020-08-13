@@ -1,8 +1,9 @@
 # ffmpeg2webrtc
 
 基于ffmpeg实现的H264数据转webrtc播放的服务
-支持http、hls、rtmp、rtsp、rtp等协议H264数据转换
+支持http、hls、rtmp、rtsp、rtp等协议H264数据转换，支持本地MP4文件转webrtc
 无需重新编码可将h264数据基于webrc发送给浏览器进行解码播放
+我屏蔽了音频流，屏蔽了其他编码器
 
 运行方式：
 执行ffmpeg2webrtc.exe
